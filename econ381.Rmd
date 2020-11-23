@@ -1,0 +1,194 @@
+---
+title: "Environmental Economics"
+output:
+  beamer_presentation:
+    theme: "Berkeley"
+    colortheme: "default"
+params:
+    details: ""
+    assessment: ""
+---
+
+```{r setup, include=FALSE}
+library(knitr)
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Details
+
+```{r details, warning=FALSE}
+kable(details)
+```
+
+
+## Course Content
+
+An introduction to the economic analysis of environmental problems. In
+particular, an examination of policy interventions in cases where
+market activities result in socially undesirable impacts on the
+environment. Topics typically include: externalities; pollution
+control policy; climate change; public goods; time, uncertainty and
+the environment; and trade and the environment.
+
+## Prerequisites
+
+One of ECON 103, ECON 103C, ECON 180.
+
+## Textbooks
+
+
+* The required text for this course is ``Environmental Economics''
+  8th Edition by Barry C. Field, Martha k Field. (earlier editions acceptable)
+* The free online book [**``R for Data Science''**](https://r4ds.had.co.nz) will be of use for completing the assignments.
+* If you want to know more about Rmarkdown, the free online [**"Definitive Guide"**](https://bookdown.org/yihui/rmarkdown/) is good bedtime reading.
+
+
+## Course materials:
+
+
+Most of the course materials are found on [**Brightspace**](https://bright.uvic.ca/d2l/home)
+
+The experiments for this course can be found here: [**Experiment webpage**](https://web.uvic.ca/~rpmartin/teaching.html)
+
+\newpage
+
+## Assessment
+
+\tiny
+```{r assessment, warning=FALSE}
+kable(assessment)
+```
+\normalsize
+## Experiments and Assignments
+
+Assignments (13% per) are based on the experiment undertaken the
+previous week. Assignments will be written in Rmarkdown with
+graphs created using the programming language R. No previous
+experience with programming is required. Note that you can submit an
+assignment even if you do not participate in the corresponding
+experiment, and you only need to do 4 out of the 6 assignments to get
+full marks (52%).  Experiment incentives (2% per) are based on
+participation: you need to start the experiment within the first
+4 minutes of class and make a series of choices. Note that the
+maximum incentive mark you can get is 8%: you only need to
+participate in 4 of the 6 experiments.
+
+## Project
+
+The remaining 40% of your assessment will be based on a project of
+your choice: i.e. a topic in environmental economics that you find
+interesting.  You will submit an online 10 minute presentation (worth
+10%) so I have an idea of what you are
+working on and then submit an essay (worth 30%).
+
+
+## Things you can't do 
+
+
+* Hand in assignments late, but you only need to do 4 of 6.
+* Have assessment weights changed based on your performance.
+* Miss the start time of the experiment and expect to participate/get participation marks. The experiments require synchronous choices (everyone in the class making choices at the same time.)
+
+## Grading Scale
+
+\begin{tabular}[h]{ll}
+A+& 90 - 100\\
+A&85 - 89\\
+A-&80 - 84\\
+B+&77 - 79\\
+B&73 - 76\\
+B-&70 - 72\\
+C+&65 - 69\\
+C&60 - 64\\
+D&50 - 59\\
+F or N &0 - 49\\
+\end{tabular}
+
+No "E" grades will be assigned.  Students should review the University’s more detailed [**summary of grading.**](https://www.uvic.ca/calendar/future/undergrad/index.php#/policy/S1AAgoGuV?bc=true\&bcCurrent=14\%20-\%20Grading\&bcGroup=Undergraduate\%20Academic\%20Regulations\&bcItemType=policies) 
+
+## Course Policies
+
+This course adheres to the [**Undergraduate Course Policies**](https://www.uvic.ca/socialsciences/economics/undergraduate/home/course\%20policies/index.php) of the Department of Economics that deal with the following issues:
+
+
+*   Academic concessions
+*  Academic integrity (plagiarism and cheating)
+*  Attendance
+*  Grading
+*  Inclusivity and diversity
+*  Late adds
+*  Late assignments
+*  Repeating courses
+*  Review of an assigned grade
+*  Sexualized violence prevention and response
+*  Students with a disability
+*  Term assignments and debarment from examinations
+*  Travel plans
+*  Waitlists
+
+The following policies are explicitly included because of their importance.
+
+## Examinations
+
+There are no exams or midterms for this course.
+
+## Waitlist Policies
+
+*  Instructors have no discretion to admit waitlisted students or raise the cap on the course.
+*  Students on the waitlist should discuss with the instructor how to ensure they are not behind with coursework in the event they are admitted.
+*  Registered students who do not show up in the first seven calendar days from the start of the course may be dropped from the course. 
+*  Registered students who decide not to take the course are responsible for dropping the course, and are urged to do so promptly out of courtesy toward waitlisted students.
+*  Waitlist offers cease after the last date for adding courses irrespective of published waitlists. 
+
+## Academic Integrity
+Academic integrity requires commitment to the values of honesty, trust, fairness, respect, and responsibility.  Students are expected to observe the same standards of scholarly integrity as their academic and professional counterparts.  A student who is found to have engaged in unethical academic behaviour, including the practices described in the [**Policy on Academic Integrity**](https://www.uvic.ca/calendar/future/undergrad/index.php#/policy/Sk_0xsM_V?bc=true\&bcCurrent=08\%20-\%20Policy\%20on\%20Academic\%20Integrity\&bcGroup=Undergraduate\%20Academic\%20Regulations\&bcItemType=policies) in the University Calendar, is subject to penalty by the University. 
+
+You will be asked to sign a pledge of integrity for each assessment.
+
+Review [**What is Plagiarism**](https://www.uvic.ca/library/research/citation/plagiarism/) for the definition of plagiarism. Note:  Submitted work may be checked using plagiarism detection software. 
+
+
+## University Policy on Human Rights, Equity and Fairness
+The University is committed to promoting, providing and protecting a positive, supportive and safe learning and working environment for all its members.
+
+See [**General University Policies.**](https://www.uvic.ca/calendar/future/undergrad/index.php#/policy/HkQ0pzdAN?bc=true\&bcCurrent=\%20General\%20University\%20Policies\&bcGroup=General\%20University\%20Policies\&bcItemType=policies)
+
+## Accessibility \& Health Resources
+
+[**Centre for Accessible Learning**](https://www.uvic.ca/services/cal/)
+Students with diverse learning styles and needs are welcome in this course.  In particular, if you have a disability/health consideration that may require accommodations, you are free to approach me; however, you must register with the Centre for Accessible Learning (CAL) for formal arrangements to be made. The CAL staff are available by appointment to assess specific needs, provide referrals and arrange appropriate accommodations.  The sooner you let us know your needs the quicker we can assist you in achieving your learning goals in this course.  
+
+[**Health Services**](https://www.uvic.ca/services/health/) - University Health Services (UHS) provides a full service primary health clinic for students, and coordinates healthy student and campus initiatives. 
+
+[**Counselling Services**](https://www.uvic.ca/services/counselling/) - Counselling Services can help you make the most of your university experience. They offer free professional, confidential, inclusive support to currently registered UVic students.  
+
+[**Elders' Voices**](https://www.uvic.ca/services/indigenous/students/elders/index.php) - The Office of Indigenous Academic and Community Engagement (IACE) has the privilege of assembling a group of Elders from local communities to guide students, staff, faculty and administration in Indigenous ways of knowing and being. 
+
+## Brightspace
+
+*  Brightspace is used extensively for the course. All students are expected to be fully functional with the system.
+*  The lecture notes will be posted in Brightspace. Please note that the lecture notes online are only outlines of the actual lectures.
+*  All announcements will be emailed to you. Students are advised to check their email frequently.
+
+## Course Experience Survey (CES)
+I value your feedback on this course. Towards the end of term you will have the opportunity to complete a confidential course experience survey (CES) regarding your learning experience. The survey is vital to providing feedback to me regarding the course and my teaching, as well as to help the department improve the overall program for students in the future. 
+
+When it is time for you to complete the survey, you will receive an email inviting you to do so. If you do not receive an email invitation, you can go directly to the [**CES log-in.**](https://ces.uvic.ca/blue/) You will use your UVic NetLink ID to access the survey, which can be completed on your laptop, tablet or mobile device. I will remind you nearer the time, but please be thinking about this important activity, especially the following three questions, during the course.
+
+*  What strengths did your instructor demonstrate that helped you learn in this course?
+*  Please provide specific suggestions as to how the instructor could have helped you learn more effectively.
+*  Please provide specific suggestions as to how this course could be improved.
+
+
+
+## Learning Outcomes
+
+By the end of the course students should be familiar to the economic approach to addressing environmental problems, as well as the shortcomings/difficulties associated with measuring environmental costs and benefits. 
+
+## E-mail correspondence
+Emails should include the course name and number in the subject line. The standard format for writing a letter must be used. This means it should begin with a salutation (e.g. Hi), include full sentences and it must conclude with your full name and V\# .Text message lingo should not be used.
+
+## Sexualized Violence Prevention \& Response
+
+UVic takes sexualized violence seriously, and has raised the bar for what is considered acceptable behaviour. Students are encouraged to learn more about how the university defines sexualized violence and its overall approach by visiting [**Sexualized Violence Prevention \& Response.**](https://www.uvic.ca/sexualizedviolence/) If you or someone you know has been impacted by sexualized violence and needs information, advice, and/or support please contact the sexualized violence resource office in Equity and Human Rights (EQHR). Contact svpcoordinator@uvic.ca.
+
