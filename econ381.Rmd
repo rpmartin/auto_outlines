@@ -61,13 +61,15 @@ kable(assessment)
 \normalsize
 ## Experiments and Assignments
 
-Assignments (13% per) are based on the experiment undertaken the
+* Assignments (13% per) are based on the experiment undertaken the
 previous week. Assignments will be written in Rmarkdown with
 graphs created using the programming language R. No previous
 experience with programming is required. Note that you can submit an
 assignment even if you do not participate in the corresponding
 experiment, and you only need to do 4 out of the 6 assignments to get
-full marks (52%).  Experiment incentives (2% per) are based on
+full marks (52%).  
+
+* Experiment incentives (2% per) are based on
 participation: you need to start the experiment within the first
 4 minutes of class and make a series of choices. Note that the
 maximum incentive mark you can get is 8%: you only need to
