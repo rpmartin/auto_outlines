@@ -7,6 +7,7 @@ term <- 202101
 first_friday <- ymd("2021-01-08")
 crns <- list(A01="21044, 21483", A02="21045, 21484")
 time_of_day <- list(A01="11:30am", A02="12:30pm")
+deadline <- "11:59pm"
 ############things that stay the same.
 course <- "Econ381"
 codes <- "ECON 381, ES 312"
@@ -31,7 +32,7 @@ for (i in sections){
                       `email:`=email,
                       `zoom:`=zoom))
   colnames(details) <- ""
-  time.of.day <- rep(time_of_day[[i]],16)
+  time.of.day <- c(rep(c(time_of_day[[i]], deadline), 4),deadline, rep(c(time_of_day[[i]], deadline),3),deadline)
   assessment <- tibble(time=time.of.day,day=day.of.week,date=assessment.dates,thing=thing,`worth (%)`=worth)
   
   rmarkdown::render(input="econ381.Rmd", 
