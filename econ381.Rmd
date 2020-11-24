@@ -1,5 +1,9 @@
 ---
 title: "Environmental Economics"
+header-includes:
+- \usepackage{booktabs}
+- \usepackage{float}
+- \usepackage{colortbl}
 output:
   beamer_presentation:
     theme: "Berkeley"
@@ -10,14 +14,16 @@ params:
 ---
 
 ```{r setup, include=FALSE}
-library(knitr)
+library("knitr")
+library("kableExtra")
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-## Details
+## 
 
-```{r details, warning=FALSE}
-kable(details)
+```{r details}
+kable(details, booktabs = T, linesep = "")%>%
+   kable_styling(position = "center")
 ```
 
 
@@ -55,10 +61,12 @@ The experiments for this course can be found here: [**Experiment webpage**](http
 ## Assessment
 
 \small
-```{r assessment, warning=FALSE}
-kable(assessment)
+```{r assessment}
+kable(assessment, booktabs = T, linesep = "")%>%
+   kable_styling(latex_options = c("striped", "hold_position"), position = "center")
 ```
 \normalsize
+
 ## Experiments and Assignments
 
 * Assignments (13% per) are based on the experiment undertaken the

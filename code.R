@@ -31,7 +31,6 @@ for (i in sections){
                       `synchronous sessions:`=paste("Fridays at",time_of_day[[i]],sep=" "),
                       `email:`=email,
                       `zoom:`=zoom))
-  colnames(details) <- ""
   time.of.day <- c(rep(c(time_of_day[[i]], deadline), 4),deadline, rep(c(time_of_day[[i]], deadline),3),deadline)
   assessment <- tibble(time=time.of.day,day=day.of.week,date=assessment.dates,thing=thing,`worth (%)`=worth)
   
