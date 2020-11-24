@@ -54,7 +54,7 @@ The experiments for this course can be found here: [**Experiment webpage**](http
 
 ## Assessment
 
-\tiny
+\small
 ```{r assessment, warning=FALSE}
 kable(assessment)
 ```
