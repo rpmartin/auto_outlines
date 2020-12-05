@@ -44,7 +44,7 @@ One of ECON 103, ECON 103C, ECON 180.
 
 
 * The required text for this course is ``Environmental Economics''
-  8th Edition by Barry C. Field, Martha k Field. (earlier editions acceptable)
+  8th Edition by Barry C. Field, Martha K. Field. (earlier editions acceptable)
 * The free online book [**``R for Data Science''**](https://r4ds.had.co.nz) will be of use for completing the assignments.
 * If you want to know more about Rmarkdown, the free online [**"Definitive Guide"**](https://bookdown.org/yihui/rmarkdown/) is good bedtime reading.
 
@@ -69,19 +69,15 @@ kable(assessment, booktabs = T, linesep = "")%>%
 
 ## Experiments and Assignments
 
-* Assignments (13% per) are based on the experiment undertaken the
-previous week. Assignments will be written in Rmarkdown with
-graphs created using the programming language R. No previous
-experience with programming is required. Note that you can submit an
-assignment even if you do not participate in the corresponding
-experiment, and you only need to do 4 out of the 6 assignments to get
-full marks (52%).  
-
-* Experiment incentives (2% per) are based on
-participation: you need to start the experiment within the first
-4 minutes of class and make a series of choices. Note that the
-maximum incentive mark you can get is 8%: you only need to
-participate in 4 of the 6 experiments.
+* Assignments are based on data from  the experiments.
+  * Assignments written in Rmarkdown with graphs created using R. 
+  * No previous experience with R or Rmarkdown is required. 
+  * You can submit an assignment even if you do not participate in the experiment.
+  * Only need to do 4 out of the 6 assignments to get full marks (52%).  
+* Participation: Experiments 1,2,4,5,6 have 20 rounds: you earn .1% per round completed.
+  * Must start the experiment within the first 4 minutes of class. 
+  * Must complete each round within 2 minutes.
+  * Maximum incentive mark is 8%: you only need to finish 4 of the 6 experiments.
 
 ## Project
 

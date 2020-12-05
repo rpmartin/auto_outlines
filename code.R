@@ -4,7 +4,7 @@ library("tidyverse")
 ##########things that change. 
 sections <- c("A01","A02")
 term <- 202101
-first_friday <- ymd("2021-01-08")
+first_friday <- ymd("2021-01-15")
 crns <- list(A01="21044, 21483", A02="21045, 21484")
 time_of_day <- list(A01="11:30am", A02="12:30pm")
 deadline <- "11:59pm"
@@ -16,7 +16,7 @@ email <- "rpmartin@uvic.ca"
 zoom <- "arrange via email"
 ########### assessment calendar
 assessment.dates<- c(first_friday-days(2),first_friday,first_friday+ weeks(0:13))
-day.of.week <- strftime(assessment.dates,'%A')
+day.of.week <- wday(assessment.dates, label = TRUE, abbr=FALSE)
 name <- c(rep(c("experiment","assignment"),7))
 num <- c(rep(0:6, each=2))
 thing <- paste(name,num,sep=" ")
