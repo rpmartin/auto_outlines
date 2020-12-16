@@ -14,6 +14,10 @@ codes <- "ECON 381, ES 312"
 instructor <- "Richard Martin"
 email <- "rpmartin@uvic.ca"
 zoom <- "arrange via email"
+assignment <- 10
+participation <- 2
+presentation <- 10
+essay <- 30
 ########### assessment calendar
 assessment.dates<- c(first_friday-days(2),first_friday,first_friday+ weeks(0:13))
 day.of.week <- wday(assessment.dates, label = TRUE, abbr=FALSE)
@@ -21,7 +25,7 @@ name <- c(rep(c("experiment","assignment"),7))
 num <- c(rep(0:6, each=2))
 thing <- paste(name,num,sep=" ")
 thing <- c(thing[1:8],"presentation",thing[9:14],"essay")
-worth <- c(0,0,rep(c(2,13),3),10,rep(c(2,13),3),30)
+worth <- c(0,0,rep(c(participation,assignment),3),presentation,rep(c(participation,assignment),3),essay)
 ########## generate outlines and slides for all sections. 
 for (i in sections){
   details <- t(tibble(`course codes:`=codes,

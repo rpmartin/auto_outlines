@@ -73,11 +73,11 @@ kable(assessment, booktabs = T, linesep = "")%>%
   * Assignments written in Rmarkdown with graphs created using R. 
   * No previous experience with R or Rmarkdown is required. 
   * You can submit an assignment even if you do not participate in the experiment.
-  * Only need to do 4 out of the 6 assignments to get full marks (52%).  
+  * Maximum assignment mark is 50%: best 5 of 6 assignments count.  
 * Participation: Experiments 1,2,4,5,6 have 20 rounds: you earn .1% per round completed.
   * Must start the experiment within the first 4 minutes of class. 
   * Must complete each round within 2 minutes.
-  * Maximum incentive mark is 8%: you only need to finish 4 of the 6 experiments.
+  * Maximum incentive mark is 10%: best 5 of 6 experiments count.
 
 ## Project
 
@@ -91,7 +91,7 @@ working on and then submit an essay (worth 30%).
 ## Things you can't do 
 
 
-* Hand in assignments late, but you only need to do 4 of 6.
+* Hand in assignments late, but you only need to do 5 of 6.
 * Have assessment weights changed based on your performance.
 * Miss the start time of the experiment and expect to participate/get participation marks. The experiments require synchronous choices (everyone in the class making choices at the same time.)
 
