@@ -2,8 +2,19 @@
 title: "Environmental Economics"
 header-includes:
 - \usepackage{booktabs}
+- \usepackage{longtable}
+- \usepackage{array}
+- \usepackage{multirow}
+- \usepackage{wrapfig}
 - \usepackage{float}
 - \usepackage{colortbl}
+- \usepackage{pdflscape}
+- \usepackage{tabu}
+- \usepackage{threeparttable}
+- \usepackage{threeparttablex}
+- \usepackage[normalem]{ulem}
+- \usepackage{makecell}
+- \usepackage{xcolor}
 output:
   beamer_presentation:
     theme: "Berkeley"
@@ -14,7 +25,6 @@ params:
 ---
 
 ```{r setup, include=FALSE}
-library("knitr")
 library("kableExtra")
 knitr::opts_chunk$set(echo = FALSE)
 ```
@@ -22,8 +32,8 @@ knitr::opts_chunk$set(echo = FALSE)
 ## 
 
 ```{r details}
-kable(details, booktabs = T, linesep = "")%>%
-   kable_styling(position = "center")
+kableExtra::kable(t(details),booktabs = T, format="latex",linesep = "") %>%
+  kable_styling(position = "center", latex_options = "hold_position")
 ```
 
 
@@ -62,36 +72,34 @@ The experiments for this course can be found here: [**Experiment webpage**](http
 
 \small
 ```{r assessment}
-kable(assessment, booktabs = T, linesep = "")%>%
-   kable_styling(latex_options = c("striped", "hold_position"), position = "center")
+kableExtra::kable(assessment, booktabs = T, format="latex",linesep = "") %>%
+  kable_styling(position = "center", latex_options = c("striped","hold_position"))
 ```
 \normalsize
 
 ## Experiments and Assignments
 
 * Assignments are based on data from  the experiments.
+  * Best 6 out of 7 assignments count: 6*5%=30%
   * Assignments written in Rmarkdown with graphs created using R. 
   * No previous experience with R or Rmarkdown is required. 
   * You can submit an assignment even if you do not participate in the experiment.
-  * Maximum assignment mark is 50%: best 5 of 6 assignments count.  
-* Participation: Experiments 1,2,4,5,6 have 20 rounds: you earn .1% per round completed.
+* Participation: Experiments have 20 rounds: you earn .1% per round completed.
+  * 7 experiments*2%=14%
   * Must start the experiment within the first 4 minutes of class. 
   * Must complete each round within 2 minutes.
-  * Maximum incentive mark is 10%: best 5 of 6 experiments count.
 
 ## Project
 
-The remaining 40% of your assessment will be based on a project of
+The remaining 56% of your assessment will be based on a project of
 your choice: i.e. a topic in environmental economics that you find
 interesting.  You will submit an online 10 minute presentation (worth
-10%) so I have an idea of what you are
-working on and then submit an essay (worth 30%).
+16%) so I have an idea of what you are working on and then submit an essay (worth 40%).
+**The essay is the only required component of the assessment.**
 
 
 ## Things you can't do 
 
-
-* Hand in assignments late, but you only need to do 5 of 6.
 * Have assessment weights changed based on your performance.
 * Miss the start time of the experiment and expect to participate/get participation marks. The experiments require synchronous choices (everyone in the class making choices at the same time.)
 
