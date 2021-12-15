@@ -79,15 +79,18 @@ kableExtra::kable(assessment, booktabs = T, format="latex",linesep = "") %>%
 
 ## Experiments and Assignments
 
-* Assignments are based on data from  the experiments.
-  * Best 6 out of 7 assignments count: 6*5%=30%
+* Participation in 7 experiments is worth 2% each, for a total of 14%. 
+  * The experiments have 20 rounds and you earn .1% per round completed.
+  * Must start the experiment within the first 4 minutes of class. 
+  * Must complete each round within 2 minutes.
+  
+
+* Six assignments, based on the data from experiments 2--7, are worth 5% each for a total of 30%.
+  * Assignment 1 is not graded: it is to familiarize you with assignment submission. 
   * Assignments written in Rmarkdown with graphs created using R. 
   * No previous experience with R or Rmarkdown is required. 
   * You can submit an assignment even if you do not participate in the experiment.
-* Participation: Experiments have 20 rounds: you earn .1% per round completed.
-  * 7 experiments*2%=14%
-  * Must start the experiment within the first 4 minutes of class. 
-  * Must complete each round within 2 minutes.
+
 
 ## Project
 
@@ -95,7 +98,7 @@ The remaining 56% of your assessment will be based on a project of
 your choice: i.e. a topic in environmental economics that you find
 interesting.  You will submit an online 10 minute presentation (worth
 16%) so I have an idea of what you are working on and then submit an essay (worth 40%).
-**The essay is the only required component of the assessment.**
+**The essay is the only required component of the assessment, where failure to submit will result in an N grade.**
 
 
 ## Things you can't do 

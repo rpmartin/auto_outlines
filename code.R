@@ -18,11 +18,16 @@ participation <- 2
 presentation <- 14
 essay <- 40
 ########### assessment calendar
-assessment <- tibble(date=c(first_friday+weeks(1:4),first_friday+weeks(3:5), first_friday+weeks(7), first_friday+weeks(8:10),first_friday+weeks(9:12)))%>%
+assessment <- tibble(date=c(first_friday+weeks(1:4),#first set of experiments
+                            first_friday+weeks(2:5), #first set of assignments
+                            first_friday+weeks(7), #presentation
+                            first_friday+weeks(8:10),# second set of experiments
+                            first_friday+weeks(9:12)))%>%   #second set of assignments plus essay
   arrange(date)%>%
   mutate(day= wday(date, label = TRUE, abbr=FALSE),
          thing=c("Experiment 1",
                  "Experiment 2",
+                 "Assignment 1",
                  "Experiment 3",
                  "Assignment 2",
                  "Experiment 4",
@@ -36,7 +41,7 @@ assessment <- tibble(date=c(first_friday+weeks(1:4),first_friday+weeks(3:5), fir
                  "Assignment 6",
                  "Assignment 7",
                  "Essay"),
-         worth=c(rep(2,3),5,2,5,5,16,2,2,5,2,5,5,40),
+         worth=c(2,2,0,2,5,2,5,5,16,2,2,5,2,5,5,40),
          worth=paste0(worth,"%")
                  )%>%
   select(thing,worth,day,date)
@@ -54,6 +59,7 @@ for (i in sections){
   assessment <- assessment%>%
     mutate(time=c(time_of_day[i],
                   time_of_day[i],
+                  deadline,
                   time_of_day[i],
                   deadline,
                   time_of_day[i],
